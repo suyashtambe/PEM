@@ -1,0 +1,5 @@
+NumPy
+pandas
+sci-kit - learn
+requests
+streamlit
