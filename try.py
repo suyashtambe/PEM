@@ -38,7 +38,7 @@ water_inlet_1 = st.number_input("Water Inlet 1", min_value=0.0, max_value=5000.0
 water_inlet_2 = st.number_input("Water Inlet 2", min_value=0.0, max_value=5000.0, step=1.0)
 current = st.number_input(" current", min_value=0.0, max_value=500.0, step=1.0)
 
-set_background(r'C:\Users\Suyash Tambe\Desktop\PDS\drop-of-water-578897.jpg')
+set_background('C:\Users\Suyash Tambe\Desktop\PDS\drop-of-water-578897.jpg')
 
 # Predict function
 def predict(water_inlet_1, water_inlet_2, current, model):
